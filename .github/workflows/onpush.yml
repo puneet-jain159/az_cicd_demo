@@ -45,6 +45,6 @@ jobs:
 
       - name: Run the job in a jobless fashion
         run: |
-          dbx launch  --job=az_ml_cicd_demo-sample-etl --as-run-submit --trace
+          dbx launch  --job=az_ml_cicd_demo-sample-etl --trace
 
 
