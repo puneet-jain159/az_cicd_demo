@@ -41,10 +41,10 @@ jobs:
 
       - name: Jobless deployment (files only upload)
         run: |
-          dbx deploy --job=az_cicd_demo-sample-etl-2.0 --files-only
+          dbx deploy --job=az_ml_cicd_demo-sample-etl --files-only
 
       - name: Run the job in a jobless fashion
         run: |
-          dbx launch --job=az_cicd_demo-sample-etl-2.0 --as-run-submit --trace
+          dbx launch  --job=az_ml_cicd_demo-sample-etl --as-run-submit --trace
 
 
